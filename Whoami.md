@@ -9,7 +9,7 @@ permalink: /Whoami/
 
 <h1 align="center">Entusiasta informático</h1>
 
-Hola me gustan las computadoras y esas cosas.
+Hola me gustan las computadoras y esas cosas. :)
 
 <p align="center"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbLyp7YcgUYz8E800a2oA_qWmyOzJLRXIpBxF3oXxLvfj9wLc0rEoJKI0xucpPH37yYFukiwyFeNgqdnt4Gi7st8mrIVlWrsRxL4ORuku19VniFbgtZHAr2PTuGS8ZVmRuysjXd8sQSXLLL4fmNYtljFYzRc_cjY3FKjHVIlyVgfN-rvrhZ88LCEECtKU/s320/image.png" alt="gmichet" /> </p>
 
