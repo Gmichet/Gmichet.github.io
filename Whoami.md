@@ -13,7 +13,7 @@ Hola me gustan las computadoras y esas cosas.
 
 :)
 
-<p align="center"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi46EUDqF2HDzzovkzZJXjaTTSdENuBYyPEUf91RecUG4AH2ZsAgasYMEaT-ATdR0JR_QCA-vC-97nQcTJJp4uPA1F6ddvwJkB-jMMpxwaipWh8Jt9W1jFaECnRRYoAkJManwV2nJLFi3hgSKjYZQ1dKjArh-0lfbfsuYlFGtksxd4uGbuDEyf0AJXwSQo/s320/image.png" alt="gmichet" /> </p>
+<p align="center"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_TXRb-8grQjDrFasU5nJQSN80sIHtPzOEb2QQKme2rGaBWybGzJOorSfvG2FFjrFUc8OuIx8ITEpdBgCSLNQxzVGWvLY_-aqIV-5mElVBTC5QPkPmQT1ZUQ0mZr694bXvgHw893SX9V4yeKZMjK064-6OFdyL_qYtBIKf15QR75uoV1IKF-PrPT8GagY/s320/Me.png" alt="gmichet" /> </p>
 
 <h3 align="center">Mejorando pacientemente</h3>
 
