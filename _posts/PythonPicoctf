@@ -1,0 +1,30 @@
+---
+title: Python Wrangling
+layout: post
+post-image: /assets/images/Post/PicoCTF/P1/P0i1.png
+description: PicoCTF 2021
+tags:
+- GENERAL SKILLS
+- PICOCTF2021
+
+---
+
+### Descripción del CTF
+
+Los scripts de Python se invocan como programas en la Terminal... ¿Puedes ejecutar este script> y usar esta contraseña para encontrar la flag.
+
+![DescripciónCTF](/assets/images/Post/PicoCTF/P1/P1i1.png)
+
+Lo primero es descargar lo resaltado en azul: 
+
+- `ende.py` Script de python. 
+- `pw.txt` La contraseña para el script.
+- `flag.txt.en` y la flag que por la extensión sabemos que esta codificada `.encode`.
+
+### Resolviendo CTF
+
+Una vez bajemos todo lo anterior podemos ver el script de python para entender mejor su funcionamiento:
+
+![Script](/assets/images/Post/PicoCTF/P1/P1i2.png)
+
+

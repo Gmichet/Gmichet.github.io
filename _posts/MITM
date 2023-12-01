@@ -1,0 +1,51 @@
+---
+title: Ataque Clásico de Hombre en el Medio
+layout: post
+post-image: /assets/images/Post/P21/MITM.png
+description: Utilizando Ettercap para interceptar el tráfico de dos máquinas en una red LAN.
+tags:
+- ETTERCAP
+- MITM
+
+---
+
+Los ataques de Hombre en el Medio (Man in the middle) o también llamados ataques en ruta o de intermediario. Funcionan en una red LAN en donde los datos viajan sin cifrado de extremo a extremo, generalmente por http y no https. Esto hace posible que otra persona pueda interceptar, leer y hasta modificar el tráfico entre ellas.
+
+![MITM](/assets/images/Post/P21/P21i0.png)
+
+
+**HTTP**
+El protocolo HTTP es susceptible a este tipo de ataques debido a su naturaleza no cifrada.
+
+**HTTPS**
+Este si posee un tipo de cifrado mejor conocido como _SSL / TLS_ para cifrar la comunicación entre el cliente y el servidor (utiliza el puerto 443 por defecto). Lo del cifrado hace que sea mucho más díficil para una atacante realizar un ataque MITM efectivo pero no imposible.
+
+### Indice
+
+
+--- 
+
+
+# Funcionamiento de Ataque en el Medio
+
+El escenario que veremos es el de un ataque clásico MITM en el contexto de la captura de credenciales en una aplicación web. Utilizando la herramienta [ettercap](https://www.ettercap-project.org/) que actua envenenando la **tabla ARP** de las víctimas, lo que les hace creer que la máquina del atacante es el enrutador predeterminado.
+
+## ARP Protocolo de Resolución de Direcciones
+
+Para conocer una tabla ARP necesitamos saber qué es ARP. 
+
+ARP es un protocolo del [modelo OSI](https://www.cloudflare.com/es-es/learning/ddos/glossary/open-systems-interconnection-model-osi/) que opera en la capa 2 (Enlace de Datos). 
+
+**CAPA 2 ENLACE DE DATOS**
+
+La capa de enlace de datos organiza el envío y la recepción de paquetes de datos dentro de una sola red.
+
+Bueno este sirve para garantizar la comunicación efectiva entre dispositivos en la red local. Esto lo hace mediante la dirección IP del host y su dirección MAC.
+
+### Dirección IP
+
+Se utiliza para identificar y ubicar un dispositivo en la red.
+
+### Dirección MAC
+
+Se utiliza para dirigir las tramas de datos [Paquetes Ethernet](https://es.wikipedia.org/wiki/Trama_Ethernet)

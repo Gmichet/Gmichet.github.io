@@ -1,12 +1,12 @@
 body {
-  background-color: #000000; // Reemplaza el valor con el color de fondo deseado
+  background-color: #0d1117; // Reemplaza el valor con el color de fondo deseado
 }
 .content span {
-  color: white; /* Reemplaza "red" con el color deseado */
+  color: #8B8FA7; /* Reemplaza "red" con el color deseado */
 }
 strong {
   font-weight: bold;
-  color: #6C71C4; /* Cambia "green" por el color deseado */
+  color: #20C20E; /* Cambia "green" por el color deseado */
 }
 .post-container {
   text-align: center; /* Alinea el texto al centro del contenedor */
@@ -17,7 +17,6 @@ strong {
   border: 1px solid #111827; /* Cambiar el color del borde */
   border-radius: 8px; /* Hacer las esquinas redondeadas */
   padding: 3px; /* Agregar un poco de espacio entre el borde y el código */
-  background-color: #8B6CEF; /* Cambiar el color de fondo */
 }
 .table-tags {
   width: 40%;
@@ -82,7 +81,7 @@ strong {
   border-collapse: collapse;
   background-color: #282a36; /* Fondo púrpura oscuro */
   color: #f8f8f2; /* Texto blanco/gris claro */
-  border: 1px solid #44475a; /* Borde gris más claro */
+  border: 1px solid #000000; /* Borde gris más claro */
 }
 .category-table td {
   padding: 10px;
@@ -95,7 +94,7 @@ strong {
   background-color: #383a4a; /* Fondo púrpura oscuro para filas pares */
 }
 .category-table a {
-  color: #50fa7b; /* Enlace verde */
+  color: #6E7291O; /* Enlace verde */
   text-decoration: none;
 }
 .category-table a:hover {
@@ -104,16 +103,16 @@ strong {
 /*Estilo para la tabla de contenido */
 table {
   background-color: #000000; /* Fondo negro */
-  color: #00FF00; /* Texto verde */
+  color: #C4A7E7; /* Texto verde */
   border-collapse: collapse;
   width: 100%;
-  border: 2px solid #00FF00; /* Borde verde */
+  border: 1px solid #000000; /* Borde verde */
   font-size: 14px;
   margin: 50px auto 50px auto;
 }
 
 table th {
-  background-color: #00FF00; /* Fondo verde */
+  background-color: #569D79; /* Fondo verde */
   color: #000000; /* Texto negro */
   padding: 10px;
   text-align: center;
@@ -136,11 +135,25 @@ table tr:hover {
 }
 
 table a {
-  color: #00FF00; /* Enlaces verdes */
+  color: #88C0D0; /* Enlaces verdes tabla contenido */
   text-decoration: none;
 }
 
 table a:hover {
   text-decoration: underline;
+}
+
+.highlighter-rouge {
+  background-color: #282c34; /* Fondo oscuro */
+  border: 1px solid #111827; /* Borde rojizo claro */
+}
+.highlighter-rouge code {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.language-plaintext {
+  color: #abb2bf; /* Color del texto */
 }
 

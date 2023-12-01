@@ -1,7 +1,7 @@
 ---
 title: Subnetting de Redes
 layout: post
-post-image: /assets/images/Post/P12/0.png
+post-image: /assets/images/Post/P12/P12i0.png
 description: División de redes en subredes más pequeñas
 tags:
 - REDES
