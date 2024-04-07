@@ -13,6 +13,12 @@ nos ayudará bastante al momento de la navegación de la misma, falicitando y me
 
 ### Indice
 
+- [Instalación de Tilix](#instalando-tilix)
+- [Instalando Zsh](#instalando-zsh)
+- [Instalando Powerlevel10k](#instalando-powerlevel10k)
+- [Instalando fuentes Nerdfonts](#instalando-fonts)
+- [Instalando gestos rápidos](#instalando-gestos)
+- [Colorenado la lectura de permisos](#mejorando-lectura-de-permisos)
 
 
 ---
@@ -27,6 +33,8 @@ Otra ventaja es que podemos redimensionar y colocar varias terminales ya sea a l
 A continuación muestro la configuración de los *shortcuts* que más utilizo:
 
 ![P22i2](/assets/images/Post/P22/P22i2.png)
+
+---
 
 ## Instalando zsh
 
@@ -68,7 +76,7 @@ sudo apt install git -y
 ```
 ¨
 
-Tenemos la posibilidad de instalar **oh my zsh** ya sea por `wget` o `curl`, solo tienes que copiar y pegar:
+Tenemos la posibilidad de instalar [oh my zsh](https://ohmyz.sh/#4install) ya sea por `wget` o `curl`, solo tienes que copiar y pegar:
 
 ![P22i7](/assets/images/Post/P22/P22i7.png)
 
@@ -98,7 +106,9 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 • Get stickers, t-shirts, coffee mugs and more: Planet Argon Shop
 ```
 
-### Instalando powerlevel10k
+---
+
+## Instalando powerlevel10k
 
 Instalamos un tema bastante agradable [powerlevel10k](https://github.com/romkatv/powerlevel10k) te dejo una captura de como es:
 
@@ -141,7 +151,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 ¨
 
-### Instalando Fonts
+---
+
+## Instalando Fonts
 
 Una vez modificamos el archivo `.zshrc` salimos de la terminal y descargamos una fuente compatible con el tema powerlevel10k en este caso vamos a descargar la siguiente 
 [nerdfonts](https://www.nerdfonts.com/font-downloads). Una vez descargado la fuente la extraemos y seleccionamos todas para su instalación:
@@ -174,7 +186,10 @@ p10k configure
 ```
 ¨
 
-### Instalando gestos
+---
+
+
+## Instalando gestos 
 
 Vamos a instalar los autocompletados
 
@@ -199,7 +214,10 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 ¨
 
-#### Coloreando los permisos de la terminal
+---
+
+
+## Mejorando lectura de permisos
 
 Hay una forma muy sencilla de hacer esto y es por medio de `grc` que nos permite darle un formato con colores a los permisos:
 
