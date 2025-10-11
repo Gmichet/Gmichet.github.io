@@ -28,7 +28,7 @@ nos ayudará bastante al momento de la navegación, facilitando y mejorando nues
 Tilix es un gran emulador de la terminal, ya que nos permite dividir nuestra terminal en varias ventanas.
 Otra ventaja es que podemos redimensionar y colocar varias terminales ya sea a la derecha o por debajo.
 
-![P22i1](/assets/images/Post/P22/P22i1.jpeg)
+![P22i1](/assets/images/Post/P22/P22i1.png)
 
 ---
 
@@ -58,7 +58,7 @@ Procedemos a ejecutar `zsh` y presionamos la opción `0`
 gmich4t@debian:~$ zsh
 ```
 
-![P22i5](/assets/images/Post/P22/P22i5.jpeg)
+![P22i5](/assets/images/Post/P22/P22i5.png)
 
 
 1. Cerramos la terminal y la volvemos abrir, para ejecutar el siguiente comando `chsh -s /usr/bin/zsh` con eso establecemos por defecto zsh, en lugar de bash.
@@ -70,9 +70,9 @@ sudo apt install git -y
 
 Tenemos la posibilidad de instalar [oh my zsh](https://ohmyz.sh/#4install) ya sea por `wget` o `curl`, solo tienes que copiar y pegar:
 
-![P22i7](/assets/images/Post/P22/P22i7.jpeg)
+![P22i7](/assets/images/Post/P22/P22i7.png)
 
-![P22i6](/assets/images/Post/P22/P22i6.jpeg)
+![P22i6](/assets/images/Post/P22/P22i6.png)
 
 Antes de terminar la instalación nos pregunta si queremos configurar por defecto **zsh** respondemos con un `y`:
 
@@ -104,7 +104,7 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 
 Instalamos un tema bastante agradable [powerlevel10k](https://github.com/romkatv/powerlevel10k) te dejo una captura de como es:
 
-![P22i8](/assets/images/Post/P22/P22i8.jpeg)
+![P22i8](/assets/images/Post/P22/P22i8.png)
 
 Clonamos el repositorio:
 
@@ -131,7 +131,7 @@ nano .zshrc
 
 Ahora buscamos **ZSH_THEME**
 
-![P22i9](/assets/images/Post/P22/P22i9.jpeg)
+![P22i9](/assets/images/Post/P22/P22i9.png)
 
 Lo modificamos con `nano` y colocamos lo siguiente, guardamos.
 
@@ -146,25 +146,25 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 Una vez modificamos el archivo `.zshrc` salimos de la terminal y descargamos una fuente compatible con el tema powerlevel10k en este caso vamos a descargar la siguiente 
 [nerdfonts](https://www.nerdfonts.com/font-downloads). Una vez descargado la fuente la extraemos y seleccionamos todas para su instalación:
 
-![P22i10](/assets/images/Post/P22/P22i10.jpeg)
+![P22i10](/assets/images/Post/P22/P22i10.png)
 
 Ahora vamos a establecer por defecto la fuente en tilix:
 
 Seleccionamos en Preferencias
 
-![P22i11](/assets/images/Post/P22/P22i11.jpeg)
+![P22i11](/assets/images/Post/P22/P22i11.png)
 
 Ahora en perfiles
 
-![P22i12](/assets/images/Post/P22/P22i12.jpeg)
+![P22i12](/assets/images/Post/P22/P22i12.png)
 
 Marcamos la opción de fuentes personalizadas
 
-![P22i13](/assets/images/Post/P22/P22i13.jpeg)
+![P22i13](/assets/images/Post/P22/P22i13.png)
 
 Seleccionamos la fuente que descargamos:
 
-![P22i14](/assets/images/Post/P22/P22i14.jpeg)
+![P22i14](/assets/images/Post/P22/P22i14.png)
 
 
 Iniciamos la configuración del tema **powerlevel10k**
@@ -192,7 +192,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 
 Finalmente habilitamos todos los plugins en la `zshrc`, la editamos con nano y buscamos el apartado **Plugins**
 
-![P22i15](/assets/images/Post/P22/P22i15.jpeg)
+![P22i15](/assets/images/Post/P22/P22i15.png)
 
 ```shell
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
@@ -229,7 +229,7 @@ alias ls='grc ls'
 
 Eso es todo!
 
-![P22i17](/assets/images/Post/P22/P22i17.jpeg)
+![P22i17](/assets/images/Post/P22/P22i17.png)
 
 
 
